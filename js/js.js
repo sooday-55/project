@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $('.nav1,.color,.nav-none1').mouseover(function(){
+       $('.nav-none1').css('display','block');
+    });
+    $('.nav1,.color,.nav-none1').mouseout(function(){
+        $('.nav-none1').css('display','');
+     });
+     $('.nav2,.color2,.nav-none2').mouseover(function(){
+        $('.nav-none2').css('display','block');
+     });
+     $('.nav2,.color2,.nav-none2').mouseout(function(){
+         $('.nav-none2').css('display','');
+      });
+      $('.nav3,.color3,.nav-none3').mouseover(function(){
+         $('.nav-none3').css('display','block');
+      });
+      $('.nav3,.color3,.nav-none3').mouseout(function(){
+          $('.nav-none3').css('display','');
+       });
+});
